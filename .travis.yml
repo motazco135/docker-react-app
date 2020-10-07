@@ -6,10 +6,10 @@ services :
   - docker
 
 before_install:
-  - docker build -t motaz/docker-react-app -f Dockerfile.dev .
+  - docker build -t motaz/docker-react-app .
 
-script:
-  - docker run -e CI=true motaz/docker-react-app  npm run test -- --coverage
+#script:
+#  - docker run -e CI=true motaz/docker-react-app
 
 deploy:
   provider: elasticbeanstalk
