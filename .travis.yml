@@ -14,10 +14,10 @@ before_install:
 deploy:
   provider: elasticbeanstalk
   region : "us-east-2"
-  app : "docker-react"
-  env : "DockerReact-env"
+  app : "test-motaz"
+  env : "TestMotaz-env"
   bucket_name : "elasticbeanstalk-us-east-2-433534321141"
-  bucket_path : "docker-react"
+  bucket_path : "test-motaz"
   on:
       branch: main
   access_key_id: $AWS_ACCESS_KEY
