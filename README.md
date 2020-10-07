@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/motazco135/docker-react-app.svg?branch=main)](https://travis-ci.com/motazco135/docker-react-app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
